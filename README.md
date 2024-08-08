@@ -1,4 +1,4 @@
-# Employee Tracker javascript
+# Simple Logo Generator
 
 In this assignment, I built a command line application that generates simple logos as svg strings. You can make them into a circle, square, or triangle. I included a test suite using the jest package to test for accurate rendering of svg strings. 
 
