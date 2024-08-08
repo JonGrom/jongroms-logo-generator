@@ -25,6 +25,7 @@ async function init(){
         {type: 'input', message: 'What color is the shape (by name or hexcode digits)?', name: "shapeColor"},
     ])
     const logo = buildLogo(response)
+    console.log(logo.renderShape())
     writeFile(`logo.svg`, logo.renderShape(), (err) => {
         err ? console.lo
         (err) : console.log('logo generated')
