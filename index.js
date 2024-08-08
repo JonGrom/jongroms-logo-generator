@@ -27,8 +27,7 @@ async function init(){
     const logo = buildLogo(response)
     console.log(logo.renderShape())
     writeFile(`logo.svg`, logo.renderShape(), (err) => {
-        err ? console.lo
-        (err) : console.log('logo generated')
+        err ? console.log(err) : console.log('logo generated')
     })
 }
 
