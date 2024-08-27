@@ -5,3 +5,6 @@ In this assignment, I built a command line application that generates simple log
 ## Link to Video Demonstration
 [Click here to see the deployed version](https://youtu.be/OocGzR0qiIA)
 
+## Screenshot of Successful Tests
+![Click here to see the deployed version](./screenshot/screenshot.png)
+
